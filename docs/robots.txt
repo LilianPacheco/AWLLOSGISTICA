@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://lilianpacheco.github.io/AWLLOSGISTICA/sitemap.xml
