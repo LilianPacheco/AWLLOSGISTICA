@@ -2,8 +2,8 @@
    Isso atualiza também HTML sem JS, metadados e sitemap. Não há build do site. */
 const AWL_CONFIG = {
   "brand": "AWL",
-  "phone": "(48) 9178-4464",
-  "phoneE164": "+554891784464",
+  "phone": "(48) 99178-4464",
+  "phoneE164": "+5548991784464",
   "whatsappE164": "+5548991784464",
   "email": "awlpremoldados@gmail.com",
   "legalName": "WL LOGISTICA CARGA E DESCARGA PRE MOLDADO LTDA",
