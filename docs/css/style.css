@@ -138,10 +138,8 @@ summary span{float:right}
 .case:nth-of-type(odd){background:#dcdad6}
 .case-title{display:flex;justify-content:space-between;gap:40px;align-items:flex-end;margin-bottom:42px}
 .case-title h2{font-size:clamp(43px,5vw,76px);width:65%}
-.case-photo{overflow:hidden;background-size:cover}
-.case-photo img{width:100%;height:auto;max-height:630px;object-fit:cover}
-.case#noturno .case-photo{max-width:800px;margin-inline:auto}
-.case#noturno .case-photo img{max-height:none}
+.case-photo{overflow:hidden;background-size:cover;aspect-ratio:16/9}
+.case-photo img{width:100%;height:100%;object-fit:cover}
 .case-fields{display:grid;grid-template-columns:repeat(3,1fr);gap:55px;padding-top:35px}
 .case-fields h3{font-size:16px;margin-bottom:13px}
 .case-fields p{font-size:14px;color:var(--ink)}
@@ -314,7 +312,7 @@ to{transform:none;opacity:1}
 .case-nav{gap:15px 22px;margin-top:30px;font-size:11px}
 .case-title{display:block;margin-bottom:30px}
 .case-title h2{width:auto;font-size:47px}
-.case-photo img{max-height:none;height:auto;object-fit:contain}
+.case-photo img{height:100%;object-fit:cover}
 .case-fields{grid-template-columns:1fr;gap:25px;padding-top:28px}
 .case-fields p{font-size:14px}
 .gallery-section{padding-top:0}
