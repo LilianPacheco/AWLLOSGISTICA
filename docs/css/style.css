@@ -145,7 +145,12 @@ summary span{float:right}
 .case-fields{display:grid;grid-template-columns:repeat(3,1fr);gap:55px;padding-top:35px}
 .case-fields h3{font-size:16px;margin-bottom:13px}
 .case-fields p{font-size:14px;color:var(--ink)}
-.before-slot{font-size:13px;color:var(--ink);max-width:650px}
+.before-slot{font-size:13px;color:var(--ink);max-width:650px;margin-top:28px}
+.before-slot summary{cursor:pointer;font-weight:700;padding:10px 0}
+.before-slot[open] summary{margin-bottom:14px}
+.before-record{margin:0}
+.before-record img{display:block;width:100%;max-height:520px;object-fit:cover}
+.before-record figcaption{font-size:12px;line-height:1.5;margin-top:9px}
 .gallery-section{padding-top:0}
 .gallery-toolbar{display:flex;justify-content:space-between;align-items:center;gap:25px;margin-bottom:40px;border-top:1px solid var(--line);padding-top:25px}
 .filters{display:flex;gap:9px;flex-wrap:wrap}
